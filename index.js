@@ -11,11 +11,11 @@ function getCookie(cName) {
   return res
 };
 
-let CopyCookie= getCookie('loginToken');
+let CopyCookie= getCookie('refresh_token');
 console.log(CopyCookie);
 
 
 
 2.
 --------------------------------------------------------------------
-document.cookie="loginToken=//CopyCookie//;"
+document.cookie="refresh_token=//CopyCookie//;"
